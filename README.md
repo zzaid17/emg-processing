@@ -1,6 +1,6 @@
 # Summary
 
-This repository is for an ongoing project on EMG classification of hand movements.
+This repository is for an ongoing project on EMG classification of finger movements.
 
 # Data
 
