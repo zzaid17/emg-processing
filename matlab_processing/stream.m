@@ -47,7 +47,7 @@ while elapsedTime < duration
     % Print to CSV
     if length(BioPotentialData) >= 200
         emg_window = BioPotentialData(end - 199:end);
-        writematrix(emg_window, 'data/emg_window.csv');
+        writematrix(emg_window, 'data/live_data.csv');
     end
 
     elapsedTime = elapsedTime + toc;
